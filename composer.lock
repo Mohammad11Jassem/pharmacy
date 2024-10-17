@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bfe12996eeecb6fdc8713a9fd9d431f8",
+    "content-hash": "dea4b119435d395e0781f97ca09b4737",
     "packages": [
         {
             "name": "brick/math",
@@ -1053,6 +1053,45 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "interreposerv/inreser",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Bilal-kassab/packagetest.git",
+                "reference": "8291ae2b7657adf583454a7d41aff6764feb8db8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Bilal-kassab/packagetest/zipball/8291ae2b7657adf583454a7d41aff6764feb8db8",
+                "reference": "8291ae2b7657adf583454a7d41aff6764feb8db8",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^10.0",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "InterRepoServ\\InreSer\\InterRepoServProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "InterRepoServ\\InreSer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "A package for creating interface, repository, and service classes in Laravel",
+            "support": {
+                "issues": "https://github.com/Bilal-kassab/packagetest/issues",
+                "source": "https://github.com/Bilal-kassab/packagetest/tree/v1.0.0"
+            },
+            "time": "2024-10-17T09:44:19+00:00"
         },
         {
             "name": "laravel/framework",
@@ -8128,5 +8167,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
