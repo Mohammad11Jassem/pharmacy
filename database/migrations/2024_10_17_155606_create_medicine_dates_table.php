@@ -17,6 +17,7 @@ return new class extends Migration
             $table->unsignedBigInteger('medicine_id')->nullable();
             $table->foreign('medicine_id')->references('id')->on('medicines')->onUpdate('cascade')->onDelete('cascade');
 
+            $table->double('price')->default(0);
             $table->integer('quantity')->default(0);
             $table->string('company_name')->nullable();
             $table->date('start_date')->nullable();
